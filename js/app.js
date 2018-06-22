@@ -12,6 +12,10 @@ $(() => {
 
   const $div = $("<div>");
   $div.attr("id", "container"); 
+
+  const $container = $('#container');
+
+  // const $body = $('body');
   
   const $h1 = $('<h1>');
   $h1.text('Hogwarts');
@@ -31,6 +35,13 @@ $(() => {
   $('body').append($h4);
 
   $('body').append('<h4>Hornthowe Wand with Dragon Heartstring Core</h4>');
+
+  const $li = $('<li/>');
+  $li.text('butter beer')
+  $ul = $('ul');
+  $('body').append($li);
+  $('body').append('<li>invisibility cloak</li>')
+
   
 
 });
