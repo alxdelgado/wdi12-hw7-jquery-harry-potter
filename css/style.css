@@ -6,3 +6,7 @@ body {
 .tiger {
   font-family: fantasy;
 }
+
+.secret {
+  opacity: 0.5; 
+}
