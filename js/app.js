@@ -53,6 +53,9 @@ $(() => {
   $ul.append($bertieJellyBeans);
   $container.append($ul); 
 
+// Year 4 // 
+  $container.append('<table><tableHead><tr><th>Day</th><th>Classes</th></tr><tr><td>Monday</td><td>Herbology</td></tr></tr><tr><td>Monday</tr></td><tr><td>Tuesday</tr></td>History of Magic</td></tr><tr><td>Wednesday</tr></td>Potions</td></tr><tr><td>Thursday</tr></td>Transfiguration</tr></td><tr><td>Friday</tr></td><tr><td>Defense Against the Dark Arts</tr></td></thread></table>'); 
+
 
 
 });
