@@ -54,6 +54,10 @@ $(() => {
   $container.append($ul); 
 
 // Year 4 // 
+  const $semester = $('<h5></h5>');
+  $semester.text('Spring 2018'); 
+  $container.append($semester);
+
   $container.append('<table><tableHead><tr><th>Day</th><th>Classes</th></tr><tr><td>Monday</td><td>Herbology</td></tr></tr><tr><td>Monday</tr></td><tr><td>Tuesday</tr></td>History of Magic</td></tr><tr><td>Wednesday</tr></td>Potions</td></tr><tr><td>Thursday</tr></td>Transfiguration</tr></td><tr><td>Friday</tr></td><tr><td>Defense Against the Dark Arts</tr></td></thread></table>'); 
 
 
@@ -76,7 +80,9 @@ $(() => {
   $leash.removeClass('cabbage');
 
 // Year 7 // 
-
+  $semester.text('Fall 2018'); 
+  $ul.prepend('<li>butter beer</li>');
+  $ul.attr('storage', 'chest'); 
 
 });
 
