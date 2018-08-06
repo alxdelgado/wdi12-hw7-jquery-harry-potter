@@ -62,8 +62,20 @@ $(() => {
 
   $butterBeer.remove();
 
-  $wand.text('Power stick')
+  $wand.text('Power stick'); 
+  $wand.insertAfter($pet); 
+  $wand.css('color', 'indigo');
 
+  $pet.remove(); 
+  $pet.insertAfter($h3); 
+
+
+// Year 6 // 
+  $('.secret').hide('slow').delay(2000).show('slow'); 
+  $leash.addClass('cabbage'); 
+  $leash.removeClass('cabbage');
+
+// Year 7 // 
 
 
 });
