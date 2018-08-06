@@ -26,14 +26,14 @@ $(() => {
   $h3.text('Gryffindor');
   $body.append($h3); 
 
-  const $h4 = $('<h4></h4>'); 
-  $h4.text('Seymour'); 
-  $h4.addClass('Owl'); 
-  $body.append($h4); 
+  const $pet = $('<h4></h4>'); 
+  $pet.text('Seymour'); 
+  $pet.addClass('Owl'); 
+  $body.append($pet); 
 
-  const $h4_2 = $('<h4></h4>'); 
-  $h4_2.text('I do not know anything about Harry Potter');
-  $body.append($h4_2);
+  const $wand = $('<h4></h4>'); 
+  $wand.text('I do not know anything about Harry Potter');
+  $body.append($wand);
 
   // Year 3 // 
 
@@ -55,6 +55,14 @@ $(() => {
 
 // Year 4 // 
   $container.append('<table><tableHead><tr><th>Day</th><th>Classes</th></tr><tr><td>Monday</td><td>Herbology</td></tr></tr><tr><td>Monday</tr></td><tr><td>Tuesday</tr></td>History of Magic</td></tr><tr><td>Wednesday</tr></td>Potions</td></tr><tr><td>Thursday</tr></td>Transfiguration</tr></td><tr><td>Friday</tr></td><tr><td>Defense Against the Dark Arts</tr></td></thread></table>'); 
+
+
+// Year 5 // 
+  $wand.remove();
+
+  $butterBeer.remove();
+
+  $wand.text('Power stick')
 
 
 
